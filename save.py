@@ -1,5 +1,5 @@
 #おまじない
-from Tkinter import Tk, Button, X, Frame, GROOVE, W, E, Label, Entry, END
+from tkinter import Tk, Button, X, Frame, GROOVE, W, E, Label, Entry, END
 import numpy as np
 import os
 
