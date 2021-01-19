@@ -22,11 +22,11 @@ if __name__ == '__main__':
     btn2 = Button(frame_2, text='2', command=push, font=("",20)) #ボタン2が押されたときの処理
     btn2.pack(fill=X) #ボタン2設置
 
-    # ボタン2
-    frame_3 = Frame(root, bd=4, relief=GROOVE) #ボタン2の定義
-    frame_3.grid(row=2, column=2) #ボタン2の位置
-    btn3 = Button(frame_3, text='3', command=push, font=("",20)) #ボタン2が押されたときの処理
-    btn3.pack(fill=X) #ボタン2設置
+    # ボタン3
+    frame_3 = Frame(root, bd=4, relief=GROOVE) #ボタン3の定義
+    frame_3.grid(row=2, column=2) #ボタン3の位置
+    btn3 = Button(frame_3, text='3', command=push, font=("",20)) #ボタン3が押されたときの処理
+    btn3.pack(fill=X) #ボタン3設置
 
     # 入力フォーム
     box1 = Entry(width=3) #入力フォームの定義
