@@ -30,8 +30,8 @@ def load():
     # 保存ファイルを読み込む
     result = np.loadtxt(path + "file.csv", delimiter=",")
     # aを表示
-    print("a:",result[0])
-    print("b:",result[1])
+    print("0:",result[0])
+    print("1:",result[1])
 
 #おまじない　↓ここから本文
 if __name__ == '__main__':
