@@ -43,13 +43,16 @@ if __name__ == '__main__':
     frame_1.grid(row=0, column=0) #ボタン1の位置
     btn1 = Button(frame_1, text='フォルダ作成', command=make_folder, font=("",20)) #ボタン1が押されたときの処理
     btn1.pack(fill=X) #ボタン1設置
+
+    # ボタン2
+    frame_2 = Frame(root, bd=4, relief=GROOVE) #ボタン2定義
+    frame_2.grid(row=1, column=1) #ボタン2位置
+    btn2 = Button(frame_2, text='保存', command=save, font=("",20)) #ボタン2が押されたときの処理
+    btn2.pack(fill=X) #ボタン2設置
     
     # 入力フォーム
     box1 = Entry(width=3) #入力フォームの定義
     box1.place(x=200, y=10) #入力フォームの位置
     
-    box2 = Entry(width=3) #入力フォームの定義
-    box2.place(x=250, y=10) #入力フォームの位置
-
     # tkinter作動
     root.mainloop()
